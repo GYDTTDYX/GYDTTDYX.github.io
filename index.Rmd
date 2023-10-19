@@ -1,0 +1,33 @@
+---
+title: "My awesome website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# This is Jeff's awesome website
+
+![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+you can ad text
+
+* and lists
+* with exta bullets
+
+you can *Format* and **bold**
+
+This is a [link](https://www.google.com/) to a good Data science tool. SOON: a link to another page on this site. 
+
+you can also still use R
+
+```{r}
+library(tidyverse)
+```
+
+# here a new section
+
+my cat is ted, this is ted. 
+
+![](image/tdf.jpg)
+
+also here is 
