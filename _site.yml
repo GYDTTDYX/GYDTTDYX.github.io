@@ -7,6 +7,8 @@ navbar:
       href: about.html
     - text: "Resume"
       href: resume.html
+    - text: "Problem2"
+      href: flexdashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<dyxdavid0220@gmail.com>
     - icon: fa-github fa-lg

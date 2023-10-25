@@ -1,0 +1,55 @@
+---
+title: "instacart visulization"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+data(instacart)
+
+fresh_food = 
+  instacart |>
+  select(
+    aisle, add_to_cart_order, order_hour_of_day, days_since_prior_order) |>
+  filter(
+    aisle == "fresh vegetables" | aisle == "fresh fruits" | aisle == "fresh herbs" | aisle == "fresh herbs"
+  )
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Box plot of different fresh food's purchasing time in one day
+
+```{r}
+fresh_food |>
+  plot_ly(y = ~order_hour_of_day, color = ~aisle, type = "box", colors = "viridis")
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Bar plot of different fresh food's purchasing time in one day
+
+```{r}
+fresh_food |>
+  group_by(aisle, order_hour_of_day)|>
+  summarise(n_obs = n())|>
+  plot_ly(
+    x = ~order_hour_of_day, y = ~n_obs, type = "bar", color = ~aisle, alpha = 0.5, colors = "viridis")
+```
+
+### Relationship between fresh food's purchase time and their days since prior order
+
+```{r}
+fresh_food |>
+  group_by(days_since_prior_order, order_hour_of_day)|>
+  summarise(n_freq = (n()/317134))|>
+  plot_ly(x = ~order_hour_of_day, y = ~days_since_prior_order, z = ~n_freq, type = "heatmap", colors = "viridis")
+```
