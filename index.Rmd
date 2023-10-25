@@ -1,33 +1,19 @@
 ---
-title: "My awesome website"
+title: "Yuxuan Du"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
-# This is Jeff's awesome website
+## About
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
-you can ad text
+I'm a first year MS student at Columbia University Irving Medical Center, Major in Biostatistics. 
 
-* and lists
-* with exta bullets
+## Past experience
+I got my Bachelor degree in Bioinformatics at University of California, San Diego with Cum Laude Latin Honor. 
 
-you can *Format* and **bold**
+I did summer intern at Base&Byte as a Bioinformatics Intern. The working includes fine-tuning Bert-based model, Geneformer, to perform cell classification and gene perturbation on a TNBC scRNA-seq dataset. Also, my work includes comparing Geneformer’s ability of removing batch effects with traditional methods like Harmony. 
 
-This is a [link](https://www.google.com/) to a good Data science tool. SOON: a link to another page on this site. 
-
-you can also still use R
-
-```{r}
-library(tidyverse)
-```
-
-# here a new section
-
-my cat is ted, this is ted. 
-
-![](image/tdf.jpg)
-
-also here is 
+## Interest
+I'm interested in multi-omics analysis, especially tools using deep learning. 

@@ -1,0 +1,60 @@
+---
+title: "Resume"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+### EDUCATION
+#### Columbia University Mailman School of Public Health
+
+* September 2023 - now
+
+* Master of Science in Biostatistics with a Specialization in Theory and Methods
+
+#### University of California, San Diego
+
+* September 2019 - June 2023
+
+* Cum Laude
+
+* Cumulative GPA: 3.86/4.0; Major GPA: 3.97/4.0
+
+* Bachelor of Science in Biological Sciences with a Specialization in Bioinformatics
+
+### INTERNSHIP EXPERIENCE
+#### Base&Byte
+
+* June 2023 - August 2023
+
+* Bioinformatics Intern
+
+* Fine-tuned Bert-based model, Geneformer, to perform cell classification and gene perturbation on a TNBC scRNA-seq data
+
+* Performed data mining, model fine-tuning, pathway enrichment analysis, and embedding extraction
+
+* Compared Geneformer’s ability of removing batch effects with traditional methods like Harmony
+
+### COURSE PROJECTS
+#### UCSD BIMM182
+
+* June 2022 - July 2022
+
+* Geological Distribution of Covid-19 Variants
+
+* Collected raw data of Covid-19 gene sequence from NCBI website, performed protein sequence alignment using BLASTX, and categorized BLASTX results
+
+* Investigated the relationship between Covid-19 variants and their geological distribution using matplotlib to visualize the results
+
+#### [UCSD BENG183](https://github.com/GYDTTDYX/BENG183project)
+
+* October 2022 - December 2022
+
+* scRNA-seq analysis
+
+* Perform scRNA-seq data analysis including quality check, dimension reduction, differential expression analysis. 
+
+### SKILLS
+* Language Proficiency: Chinese (Mandarin native speaker), English (GRE 330)
+* Programming Languages: Python, R, C, Java

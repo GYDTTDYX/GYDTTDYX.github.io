@@ -1,9 +1,9 @@
 ---
-title: "My awesome website"
+title: "About the website"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
-# a great website
+This website serve as Yuxuan Du's personal homepage and is hosted by Github. 
