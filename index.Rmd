@@ -13,7 +13,7 @@ I'm a first year MS student at Columbia University Irving Medical Center, Major 
 ## Past experience
 I got my Bachelor degree in Bioinformatics at University of California, San Diego with Cum Laude Latin Honor. 
 
-I did summer intern at Base&Byte as a Bioinformatics Intern. The working includes fine-tuning Bert-based model, Geneformer, to perform cell classification and gene perturbation on a TNBC scRNA-seq dataset. Also, my work includes comparing Geneformer’s ability of removing batch effects with traditional methods like Harmony. 
+I did summer intern at Base&Byte as a Bioinformatics Intern. I fine-tuned a Bert-based model, Geneformer, to perform cell classification and gene perturbation on a TNBC scRNA-seq dataset. Also, my work includes comparing Geneformer’s ability of removing batch effects with traditional methods like Harmony. 
 
 ## Interest
 I'm interested in multi-omics analysis, especially tools using deep learning. 
